@@ -8,11 +8,81 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28889-www-
 x-kinRank: "7"
 x-alexaRank: "603625"
 tags: Ratings
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/ratings/master/_listings/broadleaf-commerce/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Broadleaf Commerce API - Get Ratings
+  x-api-slug: ratingsitemid-get
+  description: Get ratings.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28889-www-broadleafcommerce-com.jpg
+  humanURL: https://www.broadleafcommerce.com
+  baseURL: https://demo.broadleafcommerce.org//api/v1
+  tags: New, Technology, SaaS, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ratings/master/_listings/broadleaf-commerce/ratingsitemid-get-openapi.md
+- name: Broadleaf Commerce API - Head Ratings
+  x-api-slug: ratingsitemid-head
+  description: Head ratings.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28889-www-broadleafcommerce-com.jpg
+  humanURL: https://www.broadleafcommerce.com
+  baseURL: https://demo.broadleafcommerce.org//api/v1
+  tags: New, Technology, SaaS, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ratings/master/_listings/broadleaf-commerce/ratingsitemid-head-openapi.md
+- name: Broadleaf Commerce API - Post Ratings
+  x-api-slug: ratingsitemid-post
+  description: Post ratings.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28889-www-broadleafcommerce-com.jpg
+  humanURL: https://www.broadleafcommerce.com
+  baseURL: https://demo.broadleafcommerce.org//api/v1
+  tags: New, Technology, SaaS, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ratings/master/_listings/broadleaf-commerce/ratingsitemid-post-openapi.md
+- name: Broadleaf Commerce API - Put Ratings
+  x-api-slug: ratingsitemid-put
+  description: Put ratings.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28889-www-broadleafcommerce-com.jpg
+  humanURL: https://www.broadleafcommerce.com
+  baseURL: https://demo.broadleafcommerce.org//api/v1
+  tags: New, Technology, SaaS, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ratings/master/_listings/broadleaf-commerce/ratingsitemid-put-openapi.md
+- name: Broadleaf Commerce API - Delete Ratings
+  x-api-slug: ratingsitemid-delete
+  description: Delete ratings.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28889-www-broadleafcommerce-com.jpg
+  humanURL: https://www.broadleafcommerce.com
+  baseURL: https://demo.broadleafcommerce.org//api/v1
+  tags: New, Technology, SaaS, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ratings/master/_listings/broadleaf-commerce/ratingsitemid-delete-openapi.md
+- name: Broadleaf Commerce API - Options Ratings
+  x-api-slug: ratingsitemid-options
+  description: Options ratings.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28889-www-broadleafcommerce-com.jpg
+  humanURL: https://www.broadleafcommerce.com
+  baseURL: https://demo.broadleafcommerce.org//api/v1
+  tags: New, Technology, SaaS, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ratings/master/_listings/broadleaf-commerce/ratingsitemid-options-openapi.md
+- name: Broadleaf Commerce API - Patch Ratings
+  x-api-slug: ratingsitemid-patch
+  description: Patch ratings.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28889-www-broadleafcommerce-com.jpg
+  humanURL: https://www.broadleafcommerce.com
+  baseURL: https://demo.broadleafcommerce.org//api/v1
+  tags: New, Technology, SaaS, Enterprise, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ratings/master/_listings/broadleaf-commerce/ratingsitemid-patch-openapi.md
 x-common:
 - type: x-openapi
   url: https://demo.broadleafcommerce.org/api/v1/v2/api-docs

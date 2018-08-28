@@ -8,11 +8,35 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Ratings
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/ratings/master/_listings/sustainable-facilities-tool-api/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Sustainable Facilities Tool API - Building System Rating Systems
+  x-api-slug: buildingsystemsratingsystems-get
+  description: Returns all building system rating systems
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sustainable-facilities-mobile_504b7.png
+  humanURL: https://sftool.gov/
+  baseURL: https://api.data.gov//sftool/v1/
+  tags: Federal Government   GSA, Stack Network, Environment, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ratings/master/_listings/sustainable-facilities-tool-api/buildingsystemsratingsystems-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ratings/master/_listings/sustainable-facilities-tool-api/buildingsystemsratingsystems-get-openapi.md
+- name: Sustainable Facilities Tool API - Building System Rating System
+  x-api-slug: buildingsystemsparameterratingsystems-get
+  description: Returns a building system rating system by parameter.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sustainable-facilities-mobile_504b7.png
+  humanURL: https://sftool.gov/
+  baseURL: https://api.data.gov//sftool/v1/
+  tags: Federal Government   GSA, Stack Network, Environment, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ratings/master/_listings/sustainable-facilities-tool-api/buildingsystemsparameterratingsystems-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ratings/master/_listings/sustainable-facilities-tool-api/buildingsystemsparameterratingsystems-get-openapi.md
 - name: Sustainable Facilities Tool API - Building System Rating Systems
   x-api-slug: buildingsystemsratingsystems-get
   description: Returns all building system rating systems

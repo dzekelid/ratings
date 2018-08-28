@@ -11,8 +11,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Ratings
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/ratings/master/_listings/plentymarkets/apis.md
 specificationVersion: "0.14"
 apis:
@@ -100,6 +100,42 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/ratings/master/_listings/plentymarkets/restfeedbacksratingratingid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/ratings/master/_listings/plentymarkets/restfeedbacksratingratingid-get-openapi.md
+- name: plentymarkets REST-API - Get a feedback rating
+  x-api-slug: restfeedbacksratingratingid-get
+  description: Gets a feedback rating. The ID of the feedback rating must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ratings/master/_listings/plentymarkets/restfeedbacksratingratingid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ratings/master/_listings/plentymarkets/restfeedbacksratingratingid-get-openapi.md
+- name: plentymarkets REST-API - Delete a feedback rating
+  x-api-slug: restfeedbacksratingratingid-delete
+  description: Deletes a feedback rating. The ID of the feedback rating must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ratings/master/_listings/plentymarkets/restfeedbacksratingratingid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ratings/master/_listings/plentymarkets/restfeedbacksratingratingid-delete-openapi.md
+- name: plentymarkets REST-API - Create a feedback rating
+  x-api-slug: restfeedbacksrating-post
+  description: Creates a feedback rating.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ratings/master/_listings/plentymarkets/restfeedbacksrating-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/ratings/master/_listings/plentymarkets/restfeedbacksrating-post-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.plentymarkets.co.uk/?ActionCall=WebActionRSS&rrss_id=1
